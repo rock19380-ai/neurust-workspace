@@ -1,0 +1,68 @@
+{
+  "name": "neurust",
+  "displayName": "Neurust AI",
+  "description": "Rust & Solana AI Engineer powered by Neurust CLI",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Machine Learning"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "neurust.audit",
+        "title": "Neurust: Audit Current File"
+      },
+      {
+        "command": "neurust.login",
+        "title": "Neurust: Login with Solana"
+      },
+      {
+        "command": "neurust.create",
+        "title": "Neurust: Create New Project (Agent)"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "neurust.audit",
+          "group": "neurust",
+          "when": "resourceLangId == rust"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "neurust-sidebar",
+          "title": "Neurust AI",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "neurust-sidebar": [
+        {
+          "type": "webview",
+          "id": "neurust.chatView",
+          "name": "AI Agent Chat"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.130",
+    "@types/vscode": "^1.106.1",
+    "typescript": "^5.0.0"
+  }
+}

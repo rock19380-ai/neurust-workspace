@@ -1,0 +1,30 @@
+[workspace]
+members = [
+    "neurust-cli",
+    "neurust-server", "rust_test",
+    ]
+
+resolver = "2"
+
+[workspace.dependencies]
+# Async Runtime
+tokio = { version = "1.0", features = ["full"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# HTTP Client & Server
+reqwest = { version = "0.11", features = ["json", "multipart"] }
+axum = "0.7"
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+
+# Utilities
+anyhow = "1.0"
+dotenv = "0.15"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# Web3 & Crypto
+bs58 = "0.5"
+solana-sdk = "=2.1.0"

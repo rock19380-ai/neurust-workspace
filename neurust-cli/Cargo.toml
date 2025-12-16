@@ -1,0 +1,38 @@
+[package]
+name = "neurust-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+colored = "2.0"
+
+# Workspace dependencies
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+reqwest = { workspace = true }
+anyhow.workspace = true
+
+# 🔥 SOLANA VERSION LOCK (Use '=' to force exact version match)
+solana-sdk = "=2.1.0"
+solana-client = "=2.1.0"
+solana-program = "=2.1.0"
+
+# Other Tools
+bs58 = "0.5"
+home = "0.5"
+toml_edit = "0.22"
+regex = "1"
+walkdir = "2.5"
+dialoguer = "0.12.0"
+similar = "2.6"     # Diff တွက်ချက်မှု ပိုမြန်ဆန်တိကျလာပါတယ်
+console = "0.15"    # 0.16 က beta/new ဖြစ်နိုင်လို့ 0.15 latest ကိုသုံးတာ safe အဖြစ်ဆုံးပါ (Terminal Colors)
+rustyline = { version = "17.0.1", features = ["derive"] } # Latest Version
+dirs = "6.0"
+chrono = { version = "0.4", features = ["serde"] }
+indicatif = "0.18.3"
+
+[[bin]]
+name = "neurust"        # <--- Output Binary Name (ဒါအရေးကြီးဆုံးပါ)
+path = "src/main.rs"

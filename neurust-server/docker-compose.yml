@@ -1,0 +1,16 @@
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: neurust_db
+    environment:
+      POSTGRES_USER: neurust_user
+      POSTGRES_PASSWORD: neurust_password
+      POSTGRES_DB: neurust_db  # Database ကို ဒီမှာကတည်းက နာမည်ပေးလိုက်မယ်
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

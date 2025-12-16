@@ -1,0 +1,235 @@
+[
+  
+  {
+    "note": "--- CORE RUST KNOWLEDGE ---",
+    "url": "https://doc.rust-lang.org/book/",
+    "topic": "rust-core-concepts"
+  },
+  {
+    "url": "https://doc.rust-lang.org/std/index.html",
+    "topic": "rust-standard-library"
+  },
+  {
+    "url": "https://doc.rust-lang.org/error_codes/error-index.html",
+    "topic": "rust-error-codes"
+  },
+  {
+    "url": "https://rust-lang.github.io/api-guidelines/",
+    "topic": "rust-best-practices"
+  },
+  {
+    "url": "https://doc.rust-lang.org/nomicon/",
+    "topic": "rust-unsafe-advanced"
+  },
+
+  {
+    "note": "--- RUST FOR GAME DEV & GRAPHICS ---",
+    "url": "https://bevyengine.org/learn/book/introduction/",
+    "topic": "rust-gamedev-bevy"
+  },
+  {
+    "url": "https://wgpu.rs/doc/wgpu/",
+    "topic": "rust-graphics-wgpu"
+  },
+
+  {
+    "note": "--- RUST FOR AI & MACHINE LEARNING ---",
+    "url": "https://huggingface.github.io/candle/guide/index.html",
+    "topic": "rust-ai-candle"
+  },
+  {
+    "url": "https://burn.dev/book/",
+    "topic": "rust-ai-burn"
+  },
+
+  {
+    "note": "--- RUST FOR DESKTOP & MOBILE ---",
+    "url": "https://tauri.app/v1/guides/",
+    "topic": "rust-desktop-mobile-tauri"
+  },
+  {
+    "url": "https://slint.dev/docs/rust/slint/",
+    "topic": "rust-ui-slint"
+  },
+
+  {
+    "note": "--- RUST BACKEND & ASYNC ---",
+    "url": "https://docs.rs/tokio/latest/tokio/",
+    "topic": "rust-async-tokio"
+  },
+  {
+    "url": "https://docs.rs/axum/latest/axum/",
+    "topic": "rust-backend-axum"
+  },
+  {
+    "url": "https://actix.rs/docs/",
+    "topic": "rust-backend-actix"
+  },
+  {
+    "url": "https://docs.rs/sqlx/latest/sqlx/",
+    "topic": "rust-database-sqlx"
+  },
+
+  {
+    "note": "--- SOLANA & ANCHOR (BLOCKCHAIN) ---",
+    "url": "https://solana.com/docs/intro/installation",
+    "topic": "solana-setup"
+  },
+  {
+    "url": "https://solana.com/docs/core/accounts",
+    "topic": "solana-core-concepts"
+  },
+  {
+    "url": "https://solana.com/docs/programs/rust",
+    "topic": "solana-program-development"
+  },
+  {
+    "url": "https://docs.solanalabs.com/cli",
+    "topic": "solana-cli-commands"
+  },
+  {
+    "url": "https://www.anchor-lang.com/docs/high-level-overview",
+    "topic": "anchor-basics"
+  },
+  {
+    "url": "https://www.anchor-lang.com/docs/pdas",
+    "topic": "anchor-pda-management"
+  },
+  {
+    "url": "https://www.anchor-lang.com/docs/errors",
+    "topic": "anchor-error-handling"
+  },
+
+  {
+    "note": "--- FRONTEND & FULLSTACK ---",
+    "url": "https://react.dev/learn",
+    "topic": "react-core"
+  },
+  {
+    "url": "https://nextjs.org/docs",
+    "topic": "nextjs-framework"
+  },
+  {
+    "url": "https://github.com/solana-labs/wallet-adapter",
+    "topic": "solana-wallet-adapter"
+  },
+  {
+    "url": "https://developers.metaplex.com/core",
+    "topic": "solana-nft-metaplex"
+  },
+
+  {
+    "note": "--- SECURITY ---",
+    "url": "https://github.com/coral-xyz/sealevel-attacks",
+    "topic": "solana-security-vulnerabilities"
+  },
+  {
+    "url": "https://solana.com/news/security-best-practices-for-solana-developers",
+    "topic": "solana-security-best-practices"
+  },
+  {
+    "url": "https://www.anchor-lang.com/docs/security-considerations",
+    "topic": "anchor-security-considerations"
+  },
+  {
+    "url": "https://solana.com/docs/core/transactions",
+    "topic": "solana-transactions-and-fees"
+  },
+  {
+    "url": "https://www.anchor-lang.com/docs/account-types",
+    "topic": "anchor-accounts"
+  },
+  {
+    "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "topic": "typescript-basics"
+  },
+  {
+    "url": "https://github.com/solana-labs/wallet-adapter",
+    "topic": "solana-wallet-adapter-github"
+  },
+  {
+    "note": "--- BUSINESS & TOKENOMICS ---",
+    "url": "https://solana.com/solutions/token-extensions",
+    "topic": "solana-token-extensions-business"
+  },
+  {
+    "url": "https://solana.com/environment",
+    "topic": "solana-sustainability"
+  },
+  {
+    "url": "https://solana.org/grants",
+    "topic": "solana-funding-opportunities"
+  },
+  {
+    "url": "https://solana.com/solutions/payments",
+    "topic": "solana-pay-business"
+  },
+  
+  {
+    "note": "--- SECURITY ---",
+    "url": "https://github.com/coral-xyz/sealevel-attacks",
+    "topic": "solana-security-vulnerabilities"
+  },
+  {
+    "url": "https://solana.com/news/security-best-practices-for-solana-developers",
+    "topic": "solana-security-best-practices"
+  },
+  {
+    "url": "https://www.anchor-lang.com/docs/security-considerations",
+    "topic": "anchor-security-considerations"
+  },
+  {
+    "url": "https://blog.openzeppelin.com/security-best-practices-for-smart-contract-development-on-solana/",
+    "topic": "solana-smart-contract-security"
+  },
+  {
+    "note": "--- NFT & METAPLEX ---",
+    "url": "https://developers.metaplex.com/core",
+    "topic": "solana-nft-metaplex-core"
+  },
+  {
+    "url": "https://developers.metaplex.com/token-metadata",
+    "topic": "solana-nft-metadata"
+  },
+  {
+    "url": "https://developers.metaplex.com/candy-machine",
+    "topic": "solana-nft-candy-machine"
+  },
+
+  {
+    "note": "--- NEXT.JS & FULLSTACK ---",
+    "url": "https://nextjs.org/docs/getting-started/installation",
+    "topic": "nextjs-setup"
+  },
+  {
+    "url": "https://nextjs.org/docs/app/building-your-application/routing",
+    "topic": "nextjs-app-router"
+  },
+  {
+    "url": "https://github.com/solana-labs/solana-nextjs-starter",
+    "topic": "solana-nextjs-integration"
+  },
+  {
+    "note": "--- DEVOPS & DEPLOYMENT ---",
+    "url": "https://github.com/docker-library/rust",
+    "topic": "rust-docker-best-practices"
+  },
+  {
+    "url": "https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-rust",
+    "topic": "rust-github-actions-ci"
+  },
+  {
+    "url": "https://solana.com/docs/intro/dev",
+    "topic": "solana-deployment-guide"
+  },
+
+  {
+    "note": "--- DEEP SECURITY AUDITING ---",
+    "url": "https://rustsec.org/advisories/",
+    "topic": "rust-security-advisories"
+  },
+  {
+    "url": "https://github.com/coral-xyz/sealevel-attacks",
+    "topic": "solana-sealevel-attacks-vectors"
+  }
+]

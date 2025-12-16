@@ -1,0 +1,23 @@
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Neurust internal
+.neurust/
+.neurust_token
+
+# Archives
+*.zip
+*.tar.gz
+
+# Rust
+target/
+
+# Node
+node_modules/
+.next/
+dist/
+build/
